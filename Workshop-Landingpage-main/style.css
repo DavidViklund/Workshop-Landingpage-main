@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./1683558927-start-hero.png);
+  background-size: cover;
+  background-position: 0;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: auto;
+}
+img {
+  height: 70px;
+  width: auto;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+a {
+  color: white;
+  font-family: "Roboto";
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 30px;
+}
+
+button {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  height: 42px;
+  width: 85px;
+  border-radius: 30px;
+  border: none;
+  background: blueviolet;
+  margin: 10px;
+}
+
+.hero {
+  height: 800px;
+  width: auto;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: Black;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.subhead {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pilned {
+  margin-top: 40px;
+}
+
+main {
+  height: 600px;
+  width: auto;
+  color: black;
+  display: flex;
+  text-align: center;
+  background-color: white;
+}
+
+.woman {
+  height: 400px;
+  width: auto;
+  margin: 80px;
+  justify-content: left;
+}
+
+.maintext {
+  height: 400px;
+  width: 700px;
+  margin: 80px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: left;
+}
+
+.knapp_låda {
+  display: flex;
+}
+
+h3 {
+  padding-top: 7px;
+}
+
+p {
+  padding-top: 30px;
+}
+.storknapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  height: 65px;
+  width: 180px;
+  border-radius: 30px;
+  border: none;
+  background: blueviolet;
+  margin-top: 40px;
+}
+
+h5 {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.containerrecom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 600px;
+  width: auto;
+  background-color: whute;
+}
+.card1 {
+  flex-wrap: wrap;
+  border: none;
+  background-color: white;
+  width: 420px;
+  height: 420px;
+}
+.kille {
+  height: 300px;
+  width: auto;
+}
+
+.quotes {
+  font-family: "Roboto";
+  font-size: 13px;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.quoterubrik {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bolder;
+  color: black;
+}
+.quoterubrik2 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bolder;
+  color: black;
+}
+.card2 {
+  flex-wrap: wrap;
+  border: none;
+  background-color: white;
+  width: 420px;
+  height: 420px;
+}
+
+.tjej2 {
+  height: 300px;
+  width: auto;
+}
+
+.card3 {
+  flex-wrap: wrap;
+  border: none;
+  background-color: white;
+  width: 420px;
+  height: 420px;
+}
+.kille2 {
+  height: 300px;
+  width: auto;
+}
+
+.section {
+  background-color: blueviolet;
+  height: 400px;
+  width: auto;
+  padding-top: 60px;
+}
+.sectiontext {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 140px;
+  font-style: italic;
+  font-weight: 1000;
+  text-align: center;
+}
+.call {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  height: 42px;
+  width: 85px;
+  border-radius: 30px;
+  border: none;
+  background: blueviolet;
+  margin: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+.footer_list {
+  list-style: none;
+}
+.footer_list li {
+  margin: 10px;
+  padding-right: 100px;
+}
+.address_heading {
+  margin-top: 10px;
+  color: black;
+}
+.footer_logo {
+  height: 200px;
+  width: auto;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.adress {
+  color: black;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.textbottom {
+  color: black;
+}
