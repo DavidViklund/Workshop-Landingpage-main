@@ -40,15 +40,15 @@ a {
 
 button {
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   text-decoration: none;
   font-size: 20px;
+  font-weight: 700;
   height: 42px;
-  width: 85px;
+  width: 90px;
   border-radius: 30px;
   border: none;
   background: blueviolet;
-  margin: 10px;
 }
 
 .hero {
@@ -203,63 +203,78 @@ h5 {
   width: auto;
 }
 
-.section {
+.sectioncontainer {
+  display: flex;
+  justify-content: center;
   background-color: blueviolet;
-  height: 400px;
+  height: 600px;
   width: auto;
   padding-top: 60px;
 }
-.sectiontext {
+h7 {
+  font-family: "Roboto";
+  font-size: 150px;
   color: white;
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  font-size: 140px;
+  font-weight: 800;
   font-style: italic;
-  font-weight: 1000;
   text-align: center;
+  padding-top: 40px;
 }
-.call {
-  display: flex;
-  justify-content: center;
-  font-family: "Roboto", sans-serif;
+h4 {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
   color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.navbtn2 {
+  color: black;
+  font-family: "Roboto";
   text-decoration: none;
   font-size: 20px;
+  font-weight: 700;
   height: 42px;
-  width: 85px;
+  width: 90px;
   border-radius: 30px;
   border: none;
-  background: blueviolet;
-  margin: 10px;
+  background: white;
 }
 
 footer {
   display: flex;
-  justify-content: center;
-  background-color: #f6f6f6;
+  justify-content: start;
+  height: 400px;
+  width: auto;
+  background-color: white;
+  padding: 30px;
 }
 .footer_list {
   list-style: none;
 }
 .footer_list li {
   margin: 10px;
-  padding-right: 100px;
 }
 .address_heading {
+  text-align: left;
   margin-top: 10px;
   color: black;
 }
-.footer_logo {
-  height: 200px;
+.darklogo {
+  height: 300px;
   width: auto;
   margin-top: 30px;
-  margin-left: 100px;
+  align-items: center;
+  margin-left: 400px;
+  margin-right: 350px;
 }
 .adress {
+  text-align: left;
   color: black;
   font-family: "Roboto";
   font-size: 20px;
 }
 .textbottom {
+  text-align: left;
   color: black;
 }
